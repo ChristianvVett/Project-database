@@ -1,0 +1,220 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+:root{
+    --main-color : darkred;
+    --second-color : #C67F7F;
+    --third-color : #ececec;
+}
+
+h1{
+    font-family: 'Nova Square';
+    color: var(--main-color);
+    align-items: center;
+    font-size: 60px;
+    letter-spacing: 50px;
+    
+}
+
+.bg_banner{
+     background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.3)), url(../img/switzerland-862870_1920.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.image{
+    bottom: 0;
+    left: 0;
+}
+
+
+.virgolette::before{
+    content:'“';
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+.virgolette::after{
+    content:'”';
+    color: var(--main-color);
+    font-size: 30px;
+    padding-top: 0;
+}
+
+.virgolette{
+    font-size: 25px;
+    color: gray;
+}
+
+.short-dark{
+    border-bottom: solid 3px darkred;
+    opacity: 1;
+    position: relative;
+   
+}
+
+.fa-snowflake{
+    color: var(--main-color);
+    font-size: 40px;
+}
+
+.fa-mountain{
+    color: var(--main-color);
+    font-size: 40px;
+}
+
+.fa-map{
+    color: var(--main-color);
+    font-size: 40px;
+}
+
+.fa-campground{
+    color: var(--main-color);
+    font-size: 40px;
+    
+}
+
+
+.bg_body{
+    background-color: gray;
+}
+
+h2{
+    color: var(--main-color);
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bolder;
+    
+    
+}
+
+.cerchio{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: darkred 2px solid;
+    position: absolute;
+    bottom: -12px;
+    left: calc(50% - 10px);
+    background-color: white;
+}
+
+.bg_white{
+    background-color: #ececec;
+}
+
+.img-trees{
+    bottom: 0px;
+}
+
+
+.bottone{
+    background-color: var(--main-color);
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border-color: darkred;
+    border-bottom: darkred;
+    border-right: darkred;
+}
+
+.foto_alberi{
+    height: 50px;
+}
+
+.border-left-main{
+    border-left: solid 2px var(--main-color);
+    position: relative;
+}
+
+h3{
+    font-family: 'Rajdhani', sans-serif;
+    color: var(--third-color);
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+
+.cerchio2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: darkred 2px solid;
+    position: absolute;
+    
+    right: calc(100% - 10px);
+    background-color: white;
+    
+}
+
+
+.img-sfondo{
+    position: relative;
+    
+}
+
+.img-alberi{
+    bottom: 0px;
+}
+
+.bg-grey{
+    background-color: var(--third-color);
+}
+
+.img1{
+    width: 150px;
+    height: 150px;
+   border-radius: 50%;
+   border: 3px solid darkred;
+   padding: 3px;
+}
+
+h4{
+    color: var(--main-color);
+}
+
+.img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid darkred;
+    padding: 5px;
+}
+
+.bg_red{
+    background-color: var(--main-color);
+}
+
+
+
+p1{
+    color: var(--third-color);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h5{
+    font-size: x-large;
+    color: var(--third-color);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+ul{
+    color: var(--third-color);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.alert-danger {
+    color: black;
+}
