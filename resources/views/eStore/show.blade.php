@@ -29,7 +29,7 @@
                         <a href="{{route('productShow', ['id'=>$product->id])}}">{{$product->name}}</a>
                      </div>
                      @endforeach
-                     {{-- <p>{{$store->products->name}}</p> --}}
+                     
                       
                       <a href="{{route('indexElectronicStore')}}" class="btn btn-primary">Torna indietro</a>
                     </div>                 
